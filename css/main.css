@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 17px;
     font-weight: 300;
     overflow-x: hidden;
     color: white;
@@ -54,12 +53,14 @@ p {
 
 /* Navigation */
 .navbar-toggler {
-    padding: 8px 15px;
+    padding: 12px 20px;
     border: 0;
     border-radius: 0;
     transform: skewX(-15deg);
     background-color: rgba(0,0,0,0.5);
     color: white;    
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    
 }
 
 .navbar-toggler i { transform: skewX(15deg); }
@@ -84,7 +85,7 @@ p {
 
 .nav-item.active .tm-nav-link,
 .nav-item:hover .tm-nav-link {
-    color: #9CC;
+    color: #F4F431;
 }
 
 /* Page Background */
@@ -285,7 +286,7 @@ textarea {
 
     .nav-item.active .tm-nav-link,
     .nav-item:hover .tm-nav-link {
-        color: #9CC;
+        color: #F4F431;
     }
 
     .tm-content { margin-top: 20px; }
